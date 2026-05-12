@@ -4,13 +4,15 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Navbar from './component/Navbar'
+import BlogList from './component/BlogList'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
     <Navbar />
+    <BlogList />
         
     </>
   )
